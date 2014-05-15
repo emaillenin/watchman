@@ -1,5 +1,8 @@
 *.gem
 *.rbc
+config.yml
+file_mtime.txt
+.idea/
 /.config
 /coverage/
 /InstalledFiles

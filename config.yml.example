@@ -1,0 +1,10 @@
+watch:
+  files: /var/myapp/logs/*err*,/www/app2/*.err
+
+email:
+  user_name: user_name
+  password: password
+  domain: example.com
+  address: smtp.sendgrid.net
+  port: 587
+  to: yourname@example.com
