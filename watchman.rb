@@ -33,4 +33,4 @@ end
 
 File.open(file_mtime_path, 'w') { |file| file.write(file_mtime.to_yaml) }
 
-FileMailer.experror(changed_content,  settings['email']['to']).deliver if changed_content.length > 0
+FileMailer.experror(changed_content,  settings['email']['to']).deliver_now if changed_content.length > 0
