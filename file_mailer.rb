@@ -1,5 +1,4 @@
 require 'action_mailer'
-require 'utf8-cleaner'
 
 class FileMailer < ActionMailer::Base
 

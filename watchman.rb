@@ -1,6 +1,5 @@
 require 'yaml'
 require 'action_mailer'
-require 'utf8-cleaner'
 
 require "#{File.expand_path(File.dirname(__FILE__))}/file_mailer"
 
