@@ -1,4 +1,5 @@
 require 'action_mailer'
+require 'active_support'
 
 class FileMailer < ActionMailer::Base
 
